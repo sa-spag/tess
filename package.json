@@ -1,0 +1,31 @@
+{
+  "name": "tess",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-warnings index.js",
+    "test": "ava",
+    "ktane": "open ktane.app",
+    "reset": "cp -a backup save"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-record-lpcm16": "^0.3.0",
+    "node-wit": "^4.3.0",
+    "ora": "^1.3.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.0.0-rc1"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
